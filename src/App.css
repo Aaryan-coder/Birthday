@@ -1,0 +1,92 @@
+h1{
+	background-color: #5BB49E;
+	color: #25880B;
+	
+	text-align: center;
+	border: 3px dashed red;/*solid*/
+	cursor: pointer;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 3rem;
+	font-family: 'Oswald', sans-serif;
+	box-shadow: 20px 20px 40px #888888;
+	margin-top: 15px;
+
+	
+
+}
+
+h2,h4{
+	text-align: center;
+	margin-top: 30px;
+	color: #2B1FBD;
+	font-style: italic;
+}
+
+body{
+	background-color: #DEAFC6;
+}
+button{
+	cursor: pointer;
+}
+
+.btn{
+	margin-left: 620px;
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.btn-success{
+	background-color: #F05F44;
+	border-color: #F05F44;
+}
+
+.btn-success:hover{
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px;
+}
+.btn-xl{
+	padding: 1rem 2rem;/*side,topand bottom*/
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+img{
+	width:300px;
+	height:300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+hr{
+
+ 
+  border-style: inset;
+  border-width: 2px;
+  border-color: black;
+
+}
+.style{
+	margin-top: 50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	background-color: yellow;
+	border: 4px dashed indigo;
+}
+.style2{
+	color:red;
+}
+.heart{
+	margin-left: 600px;
+	font-size: 48px;
+}
